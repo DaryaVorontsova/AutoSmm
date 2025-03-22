@@ -1,0 +1,21 @@
+.not-found-container {
+    text-align: center;
+    padding: 50px;
+}
+  
+.not-found-container h1 {
+    font-size: 3rem;
+    color: #ff4d4d;
+    animation: shake 0.5s infinite alternate;
+}
+  
+.not-found-container p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+  
+@keyframes shake {
+    0% { transform: translateX(-5px); }
+    100% { transform: translateX(5px); }
+}
+  
