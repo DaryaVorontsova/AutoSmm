@@ -1,2 +1,4 @@
-export const API_URL = 'http://10.8.1.2:8855';
-export const WS_URL = 'ws://10.8.1.2:8855/posts/ws';
+export const API_URL = 'https://warymor.ru';
+export const WS_URL = 'ws://warymor.ru/posts/ws';
+
+// http://147.45.224.58:8855/docs

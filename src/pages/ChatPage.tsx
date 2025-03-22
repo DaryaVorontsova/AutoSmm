@@ -44,7 +44,7 @@ export const ChatPage = () => {
     '🎯 Формирую оптимальный ответ...',
   ];
   const blinkIndexRef = useRef<number>(0);
-  const blinkingIntervalRef = useRef<number | null>(null);
+  const blinkingIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
   const renderer = new marked.Renderer();
 

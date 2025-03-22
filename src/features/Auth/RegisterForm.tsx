@@ -129,7 +129,9 @@ export const RegisterForm = () => {
               />
             </div>
           </div>
-          {loading && <Loading />}
+          <div className="d-flex justify-content-center align-items-center">
+            {loading && <Loading />}
+          </div>
           {error && <Error message={error} />}
           {errorAuth && <Error message={errorAuth} />}
           <button className="btn btn-primary w-100 py-2" type="submit">
